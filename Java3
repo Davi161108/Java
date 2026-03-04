@@ -1,0 +1,12 @@
+public class Main {
+  public static void main(String[] args) {
+  double salario= 1621.00;
+  double b= 17.8;
+  
+  double novo= salario * b / 100;
+  double reajuste= salario + novo;
+  
+  System.out.println("Salário mínimo atual: "+salario);
+  System.out.println("Salário mínimo após reajuste: "+reajuste);
+  }
+}
