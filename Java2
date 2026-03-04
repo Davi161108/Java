@@ -1,0 +1,13 @@
+public class Main {
+  public static void main(String[] args) {
+  	String nome= "Davi";
+    double idade= 17;
+    boolean estuda= true;
+    String escola= "Escola Estadual Doutor Carlos Albuquerque";
+    
+    System.out.println("nome: "+nome);
+    System.out.println("idade: "+idade);
+    System.out.println("estuda: "+estuda);
+    System.out.println("escola: "+escola);
+    }
+}
