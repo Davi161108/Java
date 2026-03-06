@@ -1,0 +1,29 @@
+import java.util.Scanner;
+public class Main {
+  public static void main(String[] args) {
+    Scanner bat = new Scanner(System.in);
+    System.out.println("Digite o nome do aluno: ");
+    String nome = bat.nextLine();
+    System.out.println("Para calcular a média, escreva a sua primeira nota: ");
+    double nota1 = bat.nextDouble();
+    System.out.println("A segunda nota: ");
+    double nota2 = bat.nextDouble();
+    System.out.println("A terceira nota: ");
+    double nota3 = bat.nextDouble();
+    System.out.println("A quarta nota: ");
+    double nota4 = bat.nextDouble();
+  
+    double media = (nota1 + nota2 + nota3 + nota4)/ 4;
+    
+  
+    System.out.println("A media do aluno " +nome+ ", é: " +media);
+    if (media>=6){
+        System.out.println("O aluno foi aprovado.");
+    }
+    else {
+        System.out.println("O aluno foi reprovado.");
+    }
+    
+    bat.close();
+  }
+}
