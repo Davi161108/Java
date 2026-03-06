@@ -1,0 +1,14 @@
+import java.util.Scanner
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner batatonha = new Scanner(System.in);
+	    String a = batatinha.nextLine();
+	    String b = batatinha.nextLine();
+	    
+	    String nome = "Carlos";
+	    String curso = "Dev";
+	    String cidade = "Montes Claros";
+	    String msg = "Meu nome é " +nome+ ", faço curso de " +curso+ ", e moro em " +cidade;
+    }
+}
