@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class Main {
+  public static void main(String[] args) {
+  Scanner bat = new Scanner(System.in);
+  System.out.println("Digite o valor da sua compra: ");
+  double valorCompra = bat.nextDouble();
+  
+  if (valorCompra>=100){
+        double compra = (valorCompra * 0.10);
+        double desconto = (valorCompra - compra);
+        System.out.println("Você ganhou 10% de desconto, sua compra sairá por " +desconto);
+    }
+    else {
+        System.out.println("Você não ganhou 10% de desconto, sua compra sairá por " +valorCompra);
+    }
+  bat.close();
+  }
+}
