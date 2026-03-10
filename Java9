@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Main {
+  public static void main(String[] args) {
+    Scanner bat = new Scanner(System.in);
+    System.out.println("Para saber a situação do aluno, escreva a sua nota: ");
+    double nota = bat.nextDouble();
+    
+    if (nota>=70){
+        System.out.println("O aluno foi aprovado.");
+    }
+    
+    else if(nota>=50 && nota<=69){
+        System.out.println("O aluno está de recuperação.");
+    }
+    else {
+        System.out.println("O aluno está reprovado.");
+    }
+    
+    bat.close();
+  }
+}
