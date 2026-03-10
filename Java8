@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Main {
+  public static void main(String[] args) {
+  Scanner bat = new Scanner(System.in);
+  System.out.println("Digite um número: ");
+  int numero = bat.nextInt();
+  
+  if (numero>=1){
+        System.out.println("O número "+numero+", é positivo.");
+    }
+    
+    else if(numero<0){
+        System.out.println("O número "+numero+", é negativo.");
+    }
+    
+    else {
+        System.out.println("O número digitado é zero.");
+    }
+  bat.close();
+  }
+}
