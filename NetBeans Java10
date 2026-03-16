@@ -1,0 +1,59 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package aparelho;
+
+import java.util.Scanner;
+
+public class Aparelho {
+
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+        
+        Celular meuCelular = new Celular();
+        System.out.println("Modelo: ");
+        meuCelular.modelo = entrada.nextLine();
+        System.out.println("Cor: ");
+        meuCelular.cor =  entrada.nextLine();
+        System.out.println("Ano: ");
+        meuCelular.ano = entrada.nextInt();
+        
+        meuCelular.ligar();
+        meuCelular.info();
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package aparelho;
+
+public class Celular {
+    String modelo;
+    int ano;
+    String cor;
+    
+    void ligar(){
+        System.out.println("Helloo" +modelo);
+    }
+    
+    void info(){
+        System.out.println("O aparelho é um "+modelo+" ano "+ano+", da cor" +cor);
+    }
+  
+}
