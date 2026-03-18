@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class Gds {
+    public static void main(String[] args) {
+        Scanner bat = new Scanner(System.in);
+        System.out.println("Digite um número: ");
+        int n = bat.nextInt();
+
+        System.out.println("Digite outro número: ");
+        int m = bat.nextInt();
+        
+        if (n>m){
+        System.out.println(n);
+    }
+    else {
+        System.out.println(m);
+    }
+
+    }
