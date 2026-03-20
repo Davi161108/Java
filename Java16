@@ -1,0 +1,18 @@
+public class Gds1 {
+
+    public static void main(String[] args) {
+       int positivo = 0;
+       int negativo = 0;
+       
+        for(int i= -10; i<=10; i++){
+           if (i>0) {
+               positivo++;
+           } else if (i<0){
+               negativo++;
+           }
+          
+        }
+            System.out.println(" Positivos: " + positivo);
+            System.out.println(" Negativos: " + negativo);
+    }
+}
