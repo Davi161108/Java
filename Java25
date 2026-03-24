@@ -1,0 +1,23 @@
+package com.mycompany.mavenproject1;
+
+public class Mavenproject1 {
+    public static void main(String[] args) {
+        
+        // Criando o vetor com 5 posições
+        int[] vetor = new int[5];
+        int soma = 0;
+        int media = 0;
+
+        // Atribuindo valores ao vetor
+        vetor[0] = 1;
+        vetor[1] = 22;
+        vetor[2] = 312;
+        vetor[3] = 443;
+        vetor[4] = 51;
+        
+        soma = vetor[0] + vetor[1] + vetor[2] + vetor[3] + vetor[4];
+        media = soma / 5;
+        
+        System.out.println(media);
+    }
+}
