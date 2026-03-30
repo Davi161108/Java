@@ -1,0 +1,8 @@
+public class Qualquer {
+    public static void main(String[] args) {
+        String frase = "Eu gosto de Java";
+
+    if (frase.contains("Java")) {
+        System.out.println("Contém Java");
+    }
+}
