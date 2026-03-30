@@ -1,0 +1,8 @@
+
+public class Qualquer {
+    public static void main(String[] args) {
+        String texto = "Java";
+        System.out.println(texto.charAt(0));
+        System.out.println(texto.charAt(3));
+    }
+}
