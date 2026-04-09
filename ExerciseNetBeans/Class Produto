@@ -1,0 +1,23 @@
+
+package com.mycompany.exercise;
+
+    public class Produto {
+    // atributos privados
+    private String nome;
+    private double preco;
+    private int quantidade;
+
+    // construtor com parâmetros
+    public Produto(String nome, double preco, int quantidade) {
+        this.nome = nome;
+        this.preco = preco;
+        this.quantidade = quantidade;
+    }
+    
+    // método com retorno para exibir dados
+    public String exibirDados() {
+        return "Produto: " + nome +
+               "\nPreço: R$ " + preco +
+               "\nQuantidade: " + quantidade;
+    }
+}
